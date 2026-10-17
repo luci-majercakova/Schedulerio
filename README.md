@@ -13,7 +13,7 @@ Upload your schedule in .ics/.txt file, paste the text content or follow instruc
 
 ## Dev info:
 
-Vibecoded with Google AI Studio with details customized by me.
+Vibecoded with Google AI Studio with details later directly customized by me.
 
 Background images come from pixabay.
 
