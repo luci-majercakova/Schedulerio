@@ -1,6 +1,8 @@
 
 # Schedulerio - Your Uni Schedule Studio
 
+Use at: <https://luci-majercakova.github.io/Schedulerio/>
+
 ## Turn your lesson plan into a pretty timetable!
 
 Customize the lesson information, background, time-format, colors, vertical vs horizontal settings and more.
