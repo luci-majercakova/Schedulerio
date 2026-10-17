@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
+  .font-jakarta {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  .font-outfit {
+    font-family: 'Outfit', sans-serif;
+  }
+  .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+  .font-jetbrains {
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+  .font-space {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+}
+
+/* Custom scrollbar for aesthetic feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(156, 163, 175, 0.7);
+}
