@@ -89,10 +89,14 @@ RRULE:FREQ=WEEKLY;WKST=FR;UNTIL=20261218T123000;INTERVAL=1;BYDAY=FR
 END:VEVENT
 END:VCALENDAR`;
 
-import forestImage from './images/forest.jpg';
-import cherryBlossomImage from './images/cherry-blossom.jpg'
-import glassCeilingImage from './images/glass-ceiling.jpg'
-import rustImage from './images/rust.jpg'
+import forestImage from './images/mila-del-monte-forest-8355748_1920.jpg';
+import forestImageSmall from './images/mila-del-monte-forest-8355748_640.jpg'
+import cherryBlossomImage from './images/hans-cherry-blossom-1260641_1920.jpg'
+import cherryBlossomImageSmall from './images/hans-cherry-blossom-1260641_640.jpg'
+import glassCeilingImage from './images/swidaalba-ceiling-8802142_1920.jpg'
+import glassCeilingImageSmall from './images/swidaalba-ceiling-8802142_640.jpg'
+import rustImage from './images/couleur-stole-3419985_1920.jpg'
+import rustImageSmall from './images/couleur-stole-3419985_640.jpg'
 
 export const PRESET_BACKGROUNDS: PresetBackground[] = [
   {
@@ -102,7 +106,7 @@ export const PRESET_BACKGROUNDS: PresetBackground[] = [
       en: 'Cherry Blossom',
     },
     url: cherryBlossomImage,
-    thumbnail: cherryBlossomImage,
+    thumbnail: cherryBlossomImageSmall,
   },
   {
     id: 'forest',
@@ -111,7 +115,7 @@ export const PRESET_BACKGROUNDS: PresetBackground[] = [
       en: 'Forest',
     },
     url: forestImage,
-    thumbnail: forestImage,
+    thumbnail: forestImageSmall,
   },
   {
     id: 'architecture',
@@ -120,7 +124,7 @@ export const PRESET_BACKGROUNDS: PresetBackground[] = [
       en: 'Modern Architecture',
     },
     url: glassCeilingImage,
-    thumbnail: glassCeilingImage,
+    thumbnail: glassCeilingImageSmall,
   },
   {
     id: 'rust',
@@ -129,7 +133,7 @@ export const PRESET_BACKGROUNDS: PresetBackground[] = [
       en: 'Rust',
     },
     url: rustImage,
-    thumbnail: rustImage,
+    thumbnail: rustImageSmall,
   },
 ];
 
